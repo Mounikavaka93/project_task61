@@ -70,7 +70,7 @@ export function SignupPage() {
     await wait(700);
     signup(values, values.remember);
     setSubmitting(false);
-    showToast('Welcome to Mounika');
+    showToast('Welcome to Vesper');
     navigate('/', { replace: true });
   }
 
@@ -173,7 +173,7 @@ export function SignupPage() {
       </form>
       <Modal open={termsOpen} onClose={() => setTermsOpen(false)} title="Terms and privacy">
         <div className="space-y-3 text-sm leading-relaxed text-ink-soft">
-          <p>Mounika is a front-end demo. Accounts, posts, and messages are stored in your browser and never sent to a server.</p>
+          <p>Vesper is a front-end demo. Accounts, posts, and messages are stored in your browser and never sent to a server.</p>
           <p>Be kind in what you post here. Because this is sample software, do not enter a password you use anywhere else.</p>
           <p>You can clear the demo at any time by removing this site’s local storage in your browser settings.</p>
         </div>

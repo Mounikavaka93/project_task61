@@ -41,7 +41,7 @@ class ErrorBoundary extends Component {
         <div className="grid min-h-screen place-items-center bg-canvas px-6 text-center">
           <div>
             <h1 className="font-display text-4xl text-ink">Something went wrong</h1>
-            <p className="mt-2 text-sm text-ink-soft">Reload Mounika and try that step again.</p>
+            <p className="mt-2 text-sm text-ink-soft">Reload Vesper and try that step again.</p>
             <button type="button" className="mt-5 font-bold text-brand-700" onClick={() => window.location.reload()}>
               Reload
             </button>

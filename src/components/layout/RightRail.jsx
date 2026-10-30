@@ -28,9 +28,9 @@ export function RightRail() {
         }}
       >
         <label className="relative block">
-          <span className="sr-only">Search Mounika</span>
+          <span className="sr-only">Search Vesper</span>
           <Icon name="search" className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-ink-faint" />
-          <input name="q" placeholder="Search Mounika" className={`${inputClass(false)} pl-10`} />
+          <input name="q" placeholder="Search Vesper" className={`${inputClass(false)} pl-10`} />
         </label>
       </form>
 
@@ -87,7 +87,7 @@ export function RightRail() {
           })}
         </div>
       </section>
-      <p className="px-1 text-xs leading-relaxed text-ink-faint">Mounika · A quieter place to share what is worth seeing.</p>
+      <p className="px-1 text-xs leading-relaxed text-ink-faint">Vesper · A quieter place to share what is worth seeing.</p>
     </div>
   );
 }

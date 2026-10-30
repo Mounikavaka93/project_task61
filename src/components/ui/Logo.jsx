@@ -8,8 +8,8 @@ export function Logo({ light = false, compact = false }) {
         <Icon name="aperture" className="h-5 w-5" />
       </span>
       {!compact && (
-        <span className={cn('font-display text-[1.45rem] leading-none tracking-tight sm:text-[1.65rem]', light ? 'text-white' : 'text-ink')}>
-          Mounika
+        <span className={cn('font-display text-[1.6rem] leading-none tracking-tight sm:text-[1.75rem]', light ? 'text-white' : 'text-ink')}>
+          Vesper
         </span>
       )}
     </span>

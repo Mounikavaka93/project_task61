@@ -7,7 +7,7 @@ import { wait } from '../utils/format';
 import { Button, PasswordField, TextField } from '../components/ui/Button';
 import { AuthLayout } from './AuthLayout';
 
-const demo = { email: 'mounika@mounika.app', password: 'password123' };
+const demo = { email: 'mounika@vesper.app', password: 'password123' };
 
 function validate({ email, password }) {
   const errors = {};

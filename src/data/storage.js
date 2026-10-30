@@ -1,6 +1,6 @@
 import { createSeed } from './seed';
 
-export const DATA_VERSION = '2';
+export const DATA_VERSION = '3';
 const VERSION_KEY = 'lumina_version';
 const USERS_KEY = 'lumina_users';
 const SOCIAL_KEY = 'lumina_social';
